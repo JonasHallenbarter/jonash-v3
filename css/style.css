@@ -1,0 +1,20 @@
+body {
+    background-color: #1D1D1D;
+  }
+
+  #header{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-nav li a {
+    color: #FFFEFF;
+  }
+
+  .navbar-nav {
+    margin-right: auto;
+  }
+  
