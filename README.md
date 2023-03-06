@@ -7,7 +7,6 @@ Dies ist das Repository für die Erneuerung der Webseite Jonash.ch. Die Webseite
 - HTML
 - CSS
 - Javascript
-- Bootstrap (CSS)
 
 # Weiteres
 
