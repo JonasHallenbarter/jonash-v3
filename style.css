@@ -1,0 +1,91 @@
+
+/*
+BOLD
+font-family: canada-type-gibson,sans-serif;
+font-weight: 700;
+font-style: normal;
+
+ITALIC
+font-family: canada-type-gibson,sans-serif;
+font-weight: 400;
+font-style: italic;
+
+LIGHT
+font-family: canada-type-gibson,sans-serif;
+font-weight: 200;
+font-style: normal;
+
+REGULAR
+font-family: canada-type-gibson,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+SEMIBOLD
+font-family: canada-type-gibson,sans-serif;
+font-weight: 600;
+font-style: normal;
+
+THIN
+font-family: canada-type-gibson,sans-serif;
+font-weight: 100;
+font-style: normal;
+
+BOOK
+font-family: canada-type-gibson,sans-serif;
+font-weight: 300;
+font-style: normal;
+
+MEDIUM
+font-family: canada-type-gibson,sans-serif;
+font-weight: 500;
+font-style: normal;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #1D1D1D;
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #header{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1{
+    color: #FAFAFA;
+    font-size: 35pt;
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+  }
+
+  p {
+    font-family: canada-type-gibson,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14pt;
+    color: #FAFAFA;
+    margin-top: 25px;
+  }
+
+  .txtcenter {
+    text-align: center;
+  }
+
