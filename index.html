@@ -26,7 +26,8 @@
 <html lang="de">
 <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="logo_web.png"/>
+    <link rel="icon" type="image/png" href="img/logo_web_dark.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="img/logo_web.png" media="(prefers-color-scheme: dark)">
     <title>Willkommen - jonash.ch</title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
   	<meta name="msvalidate.01" content="96D156291A3EA6D4525B77C7E7A48C52"/>
@@ -34,7 +35,7 @@
   	<meta name='description' content='Hallo, ich bin Jonas Hallenbarter | Lernender Mediamatiker | Über mich | Email'>
     <link rel="stylesheet" href="style.css"> 
 
-    <!--Adobe Schrift - Gibson-->
+    <!-- Adobe Schrift - Gibson-->
     <link rel="stylesheet" href="https://use.typekit.net/uqk2weg.css">
 </head>
 
@@ -43,25 +44,22 @@
   <!-- Navigation -->
     <nav class="navbar">
       <ul class="navbar-nav">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">Über mich</a></li>
-        <li class="nav-item"><a href="#">Projekte</a></li>
-        <li class="nav-item"><a href="#">Kontakt</a></li>
+        <li class="nav-item"><a href="#start">Home</a></li>
+        <li class="nav-item"><a href="#ueber-mich">Über mich</a></li>
+        <li class="nav-item"><a href="#taetigkeiten">Tätigkeiten</a></li>
+        <li class="nav-item"><a href="#kontakt">Kontakt</a></li>
         <li class="nav-item">
-
-          <svg id="Icon_feather-sun" data-name="Icon feather-sun" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
-            <path id="Pfad_4" data-name="Pfad 4" d="M25.5,18A7.5,7.5,0,1,1,18,10.5,7.5,7.5,0,0,1,25.5,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_5" data-name="Pfad 5" d="M18,1.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_6" data-name="Pfad 6" d="M18,31.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_7" data-name="Pfad 7" d="M6.33,6.33,8.46,8.46" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_8" data-name="Pfad 8" d="M27.54,27.54l2.13,2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_9" data-name="Pfad 9" d="M1.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_10" data-name="Pfad 10" d="M31.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_11" data-name="Pfad 11" d="M6.33,29.67l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-            <path id="Pfad_12" data-name="Pfad 12" d="M27.54,8.46l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <svg id="light-mode-toggle" class="toggle" data-name="Icon feather-sun" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+            <path class="toggle__circle" id="Pfad_4" data-name="Pfad 4" d="M25.5,18A7.5,7.5,0,1,1,18,10.5,7.5,7.5,0,0,1,25.5,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_5" data-name="Pfad 5" d="M18,1.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_6" data-name="Pfad 6" d="M18,31.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_7" data-name="Pfad 7" d="M6.33,6.33,8.46,8.46" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_8" data-name="Pfad 8" d="M27.54,27.54l2.13,2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_9" data-name="Pfad 9" d="M1.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_10" data-name="Pfad 10" d="M31.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_11" data-name="Pfad 11" d="M6.33,29.67l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path class="toggle__shine" id="Pfad_12" data-name="Pfad 12" d="M27.54,8.46l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
           </svg>
-          
-
         </li>
       </ul>
     </nav>
@@ -69,8 +67,8 @@
   <!-- Header Section -->
   <section id="header" class="">
     <div class="container">
-        <svg xmlns="http://www.w3.org/2000/svg" width="233.893" height="331.369" viewBox="0 0 233.893 331.369">
-            <path id="Pfad_2" data-name="Pfad 2" d="M975.605,152.3c-26.884-36.359,17.946-124.809,43.677-66.358s1.852,171.905-4.141,195.024S968.848,419.445,920.126,394.3c-41.588-21.474-6.714-91.56,21.122-117.819s45.675-37.59,101.019-55.545c67.734-21.97,88.049-104.905,70.5-112.87s-26.383,39.2-34.163,70.4-13.407,131.018-14.053,163.059c-.6,30-13.1,21.806-11.727-27.221q.135-5,.479-10.556c3.144-199.658,46.515-228.4,71.826-210.721s-.1,115.1-62.4,136.433c-60.8,20.82-111.826,44.867-133.1,94.4-19.841,46.168-.172,66.86,22.442,45.824s58.893-91.391,62.274-186.382c.786-22.075,3.877-81.174-14.979-90.8S975.218,149.385,975.605,152.3Z" transform="translate(-900.933 -66.491)" fill="#fff"/>
+        <svg class="logo intro-transiton" xmlns="http://www.w3.org/2000/svg" width="233.893" height="331.369" viewBox="0 0 233.893 331.369">
+            <path class="logo__path" id="Pfad_2" data-name="Pfad 2" d="M975.605,152.3c-26.884-36.359,17.946-124.809,43.677-66.358s1.852,171.905-4.141,195.024S968.848,419.445,920.126,394.3c-41.588-21.474-6.714-91.56,21.122-117.819s45.675-37.59,101.019-55.545c67.734-21.97,88.049-104.905,70.5-112.87s-26.383,39.2-34.163,70.4-13.407,131.018-14.053,163.059c-.6,30-13.1,21.806-11.727-27.221q.135-5,.479-10.556c3.144-199.658,46.515-228.4,71.826-210.721s-.1,115.1-62.4,136.433c-60.8,20.82-111.826,44.867-133.1,94.4-19.841,46.168-.172,66.86,22.442,45.824s58.893-91.391,62.274-186.382c.786-22.075,3.877-81.174-14.979-90.8S975.218,149.385,975.605,152.3Z" transform="translate(-900.933 -66.491)" fill="#fff"/>
         </svg>          
     </div>
   </section>
@@ -78,61 +76,34 @@
   <!-- Start Section -->
   <section id="start" class="">
     <div class="container">
-      <h1>Social Media Marketing</h1>
+      <h1 class="intro-transiton">Social Media Marketing</h1>
       <p class="txtcenter">Ich fokussiere mich auf junge Unternehmen<br>
         Und unterstütze Sie in Bereichen:</p>
-        
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-       <p>Tätigkeit</p> 
-        
+
 
     </div>
-    <script>
-      import "./styles.css";
-
-      export default function App() {
-        return (
-          <div className="App">
-            <div class="slide-right">
-              <h2>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-                <span>Neo</span>
-              </h2>
-            </div>
-          </div>
-        );
-    }
-
-    // https://codesandbox.io/s/naughty-leaf-wndvlf?file=/src/index.js:0-228
-
-    </script>
+    <!-- <div class="ticker-wrap">
+      <div class="ticker">
+        <div class="ticker__text">
+          Mediengestaltung
+        </div>
+        <div class="ticker__text">
+          Mediengestaltung
+        </div>
+        <div class="ticker__text">
+          Mediengestaltung  
+        </div>
+        <div class="ticker__text">
+          Mediengestaltung
+        </div>
+      </div>
+    </div> -->
   </section>
 
  
   <section id="referenzen">
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.408 297.645">
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.408 297.645">
       <g id="Ecole-Romande" transform="translate(0.012 -0.001)">
         <path id="Pfad_13" data-name="Pfad 13" d="M201,11.75,97.24,15.54a26,26,0,0,0-22,13.78l-48.6,91.76A26,26,0,0,0,27.62,147l55.17,88a26,26,0,0,0,22.93,12.14l103.76-3.8a25.9,25.9,0,0,0,22-13.78l48.6-91.76a26,26,0,0,0-.95-25.92l-55.17-88A25.93,25.93,0,0,0,201,11.75Z" transform="translate(-23.66 -11.73)" fill="#9ea4b2"/>
         <path id="Pfad_14" data-name="Pfad 14" d="M303.58,38.77,177.07,15.62a25.91,25.91,0,0,0-24.43,8.72l-83.31,98a26,26,0,0,0-4.67,25.52L107.87,269a26,26,0,0,0,19.77,16.81l126.51,23.14a25.93,25.93,0,0,0,24.43-8.71l83.3-98a25.94,25.94,0,0,0,4.67-25.51L323.34,55.57a25.94,25.94,0,0,0-19.76-16.8Z" transform="translate(-23.66 -11.73)" fill="#d1d4e5"/>
@@ -141,7 +112,7 @@
       </g>
     </svg>
 
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 362 119" width="250px">
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 362 119" width="250px">
       <defs>
         <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 198 65">
           <image width="198" height="65" xlink:href="data:image/png;base64,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"/>
@@ -151,7 +122,7 @@
     </svg>
     
     
-    <svg xmlns="http://www.w3.org/2000/svg" width="185.086" height="225.53" viewBox="0 0 185.086 225.53">
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" width="185.086" height="225.53" viewBox="0 0 185.086 225.53">
       <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(0 0.001)">
         <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(0 -0.001)">
           <path id="Pfad_8" data-name="Pfad 8" d="M4.377,62.751l-4.3,82.328h0c-2.006,48.253,37.234,89.07,87.658,91.168h0c50.413,2.1,92.915-35.32,94.924-83.573l2.43-45.237S156.011,88.1,124.118,86.7C98.159,85.569,70.33,102.931,54.772,98.681A88.919,88.919,0,0,1,4.377,62.751" transform="translate(0 -10.801)" fill="#cf312e"/>
@@ -174,28 +145,87 @@
   </section>
 
   <section id="ueber-mich" class="normalSection">
-    <h1>Zu meiner Person</h1>
+    <h1 class="intro-transiton">Zu meiner Person</h1>
     <div class="flxbox">
-      <div>
+      <div class="flx-img intro-transiton">
         <img src="img/IMG_4092.jpg">
       </div>
-      <div>
-        <h2></h2>
-        <p></p>
+      <div class="flx-txt intro-transiton">
+        <h2>Jonas Hallenbarter</h2>
+        <p>Ich bin Lernender Mediamatiker im 3. Ausbildungsjahr.</p>
+
+        <p>Besonders gerne realisiere ich:<br>
+          - Grafikprojekte<br>
+          - Fotografie <br>
+          - Video Produktionen<br>
+        </p>
+        <p>Ich bin in der Ausbildung, deshalb arbeite ich für nur ausgewählte Firmen (Zeitlich)   </p>
       </div>
     </div>
   </section>
 
-  <section id="plan" class="normalSection">
-    <h1></h1>
+  <section id="taetigkeiten" class="normalSection">
+    <h1 class="intro-transiton">Tätigkeiten</h1>
+    <p class="txtcenter">Ich unterstütze Unternehmen im Marketing und helfe Ihnen<br> mittels Reels und Videos mehr Reichweite zu generieren</p>
     <div class="flxbox">
-      <div>
+      <div class="flx-img intro-transiton">
         <img src="img/IMG_4092.jpg">
       </div>
-      <div>
-        <h2></h2>
-        <p></p>
+      <div class="flx-item intro-transiton">
+       <h2>Walliserguide</h2>
+         
       </div>
+    </div>
+    <input id="slide-dot-1" type="radio" name="slides" checked>
+      <div class="slide slide-1"></div>
+      <input id="slide-dot-2" type="radio" name="slides">
+      <div class="slide slide-2"></div>
+      <input id="slide-dot-3" type="radio" name="slides">
+      <div class="slide slide-3"></div>
+  </section>
+
+  <section id="kontakt" class="normalSection">
+    <h1 class="intro-transiton">Kontakt aufnehmen</h1>
+    <p class="txtcenter">Ich freue mich auf Ihre Nachricht</p>
+    
+    <form id="myForm" onsubmit="validateForm(event)">
+      <input type="text" id="name" name="name" placeholder="Name">
+      <br>
+      <input type="text" id="email" name="email" placeholder="Email">
+      <br>
+      <textarea id="message" name="message" placeholder=""></textarea>
+      <br>
+      <input type="submit" value="Absenden">
+    </form>
+  
+  </section>
+
+  <section id="footer" class="footer">
+    <div class="footer-column">
+      <svg class="logo intro-transiton" xmlns="http://www.w3.org/2000/svg" width="233.893" height="331.369" viewBox="0 0 233.893 331.369">
+        <path class="logo__path" id="Pfad_2" data-name="Pfad 2" d="M975.605,152.3c-26.884-36.359,17.946-124.809,43.677-66.358s1.852,171.905-4.141,195.024S968.848,419.445,920.126,394.3c-41.588-21.474-6.714-91.56,21.122-117.819s45.675-37.59,101.019-55.545c67.734-21.97,88.049-104.905,70.5-112.87s-26.383,39.2-34.163,70.4-13.407,131.018-14.053,163.059c-.6,30-13.1,21.806-11.727-27.221q.135-5,.479-10.556c3.144-199.658,46.515-228.4,71.826-210.721s-.1,115.1-62.4,136.433c-60.8,20.82-111.826,44.867-133.1,94.4-19.841,46.168-.172,66.86,22.442,45.824s58.893-91.391,62.274-186.382c.786-22.075,3.877-81.174-14.979-90.8S975.218,149.385,975.605,152.3Z" transform="translate(-900.933 -66.491)" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Projekte</h4>
+      <a href="#">Walliserguide</a>
+      <a href="#">DJ Cale</a>
+      <a href="#">Ecole Romande</a>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Soziale Medien</h4>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Github</a>
+      <a href="#">Threema</a>
+      <a href="#">Naoo</a>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Informationen</h4>
+      <a href="#">Impressum</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">Clarity Tracking</a>
     </div>
   </section>
 
