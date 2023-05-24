@@ -1,0 +1,374 @@
+ <!--
+                 .-=-             
+                .=..-=       .---.
+               -:   =:     --  -=
+               :    --    :=   --
+                    --    =:  :=.
+                    --   :-  -=. 
+                    =:   =-:=:   
+                    =:..:=-:     
+                 .:-=::.:=       
+              :--:.=-   :=       
+           .--:   :=.   :-       
+          :=:    .=:    -:       
+         -=.     --     -:       
+        :=:    .=:      ::       
+        ==.   :=:                
+        .=-:-=:                  
+
+        Sie finden den gesammten Code auf https://github.com/JonasHallenbarter/jonash-v3
+        
+        > Die Webseite wird in der Schweiz bei infomaniak gehostet. 
+        
+    -->
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="img/logo_web_dark.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="img/logo_web.png" media="(prefers-color-scheme: dark)">
+    <title>Willkommen - jonash.ch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  	<meta name="msvalidate.01" content="96D156291A3EA6D4525B77C7E7A48C52"/>
+  	<meta name="author" content="Jonas Hallenbarter">
+  	<meta name='description' content='Hallo, ich bin Jonas Hallenbarter | Lernender Mediamatiker | Über mich | Email'>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/slider.css"> 
+    <link rel="stylesheet" href="css/ticker.css"> 
+    <!-- Adobe Schrift - Gibson-->
+    <link rel="stylesheet" href="https://use.typekit.net/uqk2weg.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <section class="section section--nav">
+    <div class="container container--nav">
+      <nav class="navbar navbar--desk">
+        <ul class="navbar__nav">
+          <li class="navbar__item"><a href="#start">Home</a></li>
+          <li class="navbar__item"><a href="#ueber-mich">Über mich</a></li>
+          <li class="navbar__item"><a href="#taetigkeiten">Tätigkeiten</a></li>
+          <li class="navbar__item"><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <svg id="light-mode-toggle" class="toggle" data-name="Icon feather-sun" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+          <path class="toggle__circle" id="Pfad_4" data-name="Pfad 4" d="M25.5,18A7.5,7.5,0,1,1,18,10.5,7.5,7.5,0,0,1,25.5,18Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_5" data-name="Pfad 5" d="M18,1.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_6" data-name="Pfad 6" d="M18,31.5v3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_7" data-name="Pfad 7" d="M6.33,6.33,8.46,8.46" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_8" data-name="Pfad 8" d="M27.54,27.54l2.13,2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_9" data-name="Pfad 9" d="M1.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_10" data-name="Pfad 10" d="M31.5,18h3" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_11" data-name="Pfad 11" d="M6.33,29.67l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          <path class="toggle__shine" id="Pfad_12" data-name="Pfad 12" d="M27.54,8.46l2.13-2.13" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        </svg>
+      </nav>
+      <div class="togglenavigation">
+        <span class="tline tline--1"></span>
+        <span class="tline tline--2"></span>
+      </div>       
+    </div>
+  </section>
+
+  <div class="mobile-navigation">
+    <nav class="navbar navbar--mob">
+      <ul class="navbar-nav">
+        <li class="navbar__item"><a href="#start">Home</a></li>
+        <li class="navbar__item"><a href="#ueber-mich">Über mich</a></li>
+        <li class="navbar__item"><a href="#taetigkeiten">Tätigkeiten</a></li>
+        <li class="navbar__item"><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Header Section -->
+  <section class="section section--header" id="header" class="">
+    <div class="container container--logo">
+        <svg class="logo intro-transiton" xmlns="http://www.w3.org/2000/svg" width="233.893" height="331.369" viewBox="0 0 233.893 331.369">
+            <path class="logo__path" id="Pfad_2" data-name="Pfad 2" d="M975.605,152.3c-26.884-36.359,17.946-124.809,43.677-66.358s1.852,171.905-4.141,195.024S968.848,419.445,920.126,394.3c-41.588-21.474-6.714-91.56,21.122-117.819s45.675-37.59,101.019-55.545c67.734-21.97,88.049-104.905,70.5-112.87s-26.383,39.2-34.163,70.4-13.407,131.018-14.053,163.059c-.6,30-13.1,21.806-11.727-27.221q.135-5,.479-10.556c3.144-199.658,46.515-228.4,71.826-210.721s-.1,115.1-62.4,136.433c-60.8,20.82-111.826,44.867-133.1,94.4-19.841,46.168-.172,66.86,22.442,45.824s58.893-91.391,62.274-186.382c.786-22.075,3.877-81.174-14.979-90.8S975.218,149.385,975.605,152.3Z" transform="translate(-900.933 -66.491)" fill="#fff"/>
+        </svg>          
+    </div>
+  </section>
+
+  <!-- Start Section -->
+  <section class="section section--" id="start" class="">
+    <div class="container">
+      <h1 class="intro-transiton">Jonas Hallenbarter Ihr Partner<br>für Content-Creation</h1>
+    </div>
+    <div class="container container--ticker">
+      <div class="ticker">
+        <div class="ticker__left">
+          <ul class="ticker__list ticker__list--left">
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            <li>Mediengestaltung</li>
+            <li>Fotografie</li>
+            <li>Videografie</li>
+            <li>Social Media Marketing</li>
+            
+          </ul>
+        </div>
+        
+        <div class="ticker__right">
+          <ul class="ticker__list ticker__list--right">
+            <li>Instagram Reels</li>
+            <li>Imagevideos</li>
+            <li>Tiktok</li>
+            <li>Podcast</li>
+            <li>Livestreams</li>
+            <li>Reportagen</li>
+            <li>Instagram Reels</li>
+            <li>Imagevideos</li>
+            <li>Tiktok</li>
+            <li>Podcast</li>
+            <li>Livestreams</li>
+            <li>Instagram Reels</li>
+            <li>Imagevideos</li>
+            <li>Tiktok</li>
+            <li>Podcast</li>
+            <li>Livestreams</li>
+            <li>Instagram Reels</li>
+            <li>Imagevideos</li>
+            <li>Tiktok</li>
+            <li>Podcast</li>
+            <li>Livestreams</li>
+            <li>Imagevideos</li>
+            <li>Tiktok</li>
+            <li>Podcast</li>
+            <li>Livestreams</li>
+          </ul>
+        </div>
+
+        <div class="ticker__left">
+          <ul class="ticker__list ticker__list--left ticker__slow">
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            <li>Sony Alpha 7 IV</li>
+            <li>4K 60</li>
+            <li>Dji Mini 3 Pro</li>
+            <li>Zhiyun-tech</li>
+            <li>RØDE</li>
+            
+          </ul>
+        </div>
+    </div>
+    </div>
+   
+    
+    
+  </section>
+
+ 
+  <section class="section section--referenzen" id="referenzen">
+
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344.408 297.645">
+      <g id="Ecole-Romande" transform="translate(0.012 -0.001)">
+        <path id="Pfad_13" data-name="Pfad 13" d="M201,11.75,97.24,15.54a26,26,0,0,0-22,13.78l-48.6,91.76A26,26,0,0,0,27.62,147l55.17,88a26,26,0,0,0,22.93,12.14l103.76-3.8a25.9,25.9,0,0,0,22-13.78l48.6-91.76a26,26,0,0,0-.95-25.92l-55.17-88A25.93,25.93,0,0,0,201,11.75Z" transform="translate(-23.66 -11.73)" fill="#9ea4b2"/>
+        <path id="Pfad_14" data-name="Pfad 14" d="M303.58,38.77,177.07,15.62a25.91,25.91,0,0,0-24.43,8.72l-83.31,98a26,26,0,0,0-4.67,25.52L107.87,269a26,26,0,0,0,19.77,16.81l126.51,23.14a25.93,25.93,0,0,0,24.43-8.71l83.3-98a25.94,25.94,0,0,0,4.67-25.51L323.34,55.57a25.94,25.94,0,0,0-19.76-16.8Z" transform="translate(-23.66 -11.73)" fill="#d1d4e5"/>
+        <text id="ROMANDE" transform="translate(86.06 188.16)" fill="#373843" font-size="43.48" font-family="VisbyCF-Bold, Visby CF" font-weight="700" letter-spacing="-0.045em"><tspan x="0" y="0">R</tspan><tspan y="0" letter-spacing="0em">OMANDE</tspan></text>
+        <text id="ECOLE" transform="translate(85.14 145.3)" fill="#373843" font-size="60" font-family="VisbyCF-Bold, Visby CF" font-weight="700"><tspan x="0" y="0" letter-spacing="-0.04em">E</tspan><tspan y="0" letter-spacing="-0.02em">C</tspan><tspan y="0">OLE</tspan></text>
+      </g>
+    </svg>
+
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="330" viewBox="0 0 587 193">
+      <image id="Logo_white" data-name="Logo white" width="587" height="193" xlink:href="data:image/png;base64,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"/>
+    </svg>
+    
+    
+    
+    <svg class="intro-transiton" xmlns="http://www.w3.org/2000/svg" width="185.086" height="225.53" viewBox="0 0 185.086 225.53">
+      <g id="Gruppe_4" data-name="Gruppe 4" transform="translate(0 0.001)">
+        <g id="Gruppe_5" data-name="Gruppe 5" transform="translate(0 -0.001)">
+          <path id="Pfad_8" data-name="Pfad 8" d="M4.377,62.751l-4.3,82.328h0c-2.006,48.253,37.234,89.07,87.658,91.168h0c50.413,2.1,92.915-35.32,94.924-83.573l2.43-45.237S156.011,88.1,124.118,86.7C98.159,85.569,70.33,102.931,54.772,98.681A88.919,88.919,0,0,1,4.377,62.751" transform="translate(0 -10.801)" fill="#cf312e"/>
+          <path id="Pfad_9" data-name="Pfad 9" d="M3.548,62.751.073,145.079h0c-2.006,48.253,37.234,89.07,87.658,91.168h0c50.413,2.1,92.915-35.32,94.924-83.573l2.43-45.237s-40.2,5.1-57.763,4.776c-31.083-.578-55.006-19.195-77.158-25.248C15.488,77.491,3.548,62.751,3.548,62.751" transform="translate(0 -10.801)" fill="red"/>
+          <path id="Pfad_10" data-name="Pfad 10" d="M173.082,31.778l5.443,16.94,16.333.68L181.59,57.7l4.25,16.039-14.092-9.934L157,72.541l5.562-15.75-12.639-9.264,16.322.678Z" transform="translate(-25.821 -5.468)" fill="#fff"/>
+          <path id="Pfad_11" data-name="Pfad 11" d="M171.046,80.8l5.443,16.957,16.333.68-13.266,8.292,4.247,16.039-14.089-9.928-14.751,8.732,5.562-15.752-12.639-9.251,16.322.678Z" transform="translate(-25.462 -13.919)" fill="#fff"/>
+          <path id="Pfad_12" data-name="Pfad 12" d="M169.006,129.834l5.443,16.951,16.333.68-13.268,8.305,4.247,16.039-14.089-9.928-14.751,8.729,5.565-15.752-12.639-9.264,16.322.678Z" transform="translate(-25.109 -22.352)" fill="#fff"/>
+          <path id="Pfad_13" data-name="Pfad 13" d="M166.964,178.876l5.443,16.946,16.333.68-13.268,8.3,4.25,16.033L165.63,210.91l-14.748,8.729,5.565-15.752-12.639-9.253,16.322.678Z" transform="translate(-24.758 -30.792)" fill="#fff"/>
+          <path id="Pfad_14" data-name="Pfad 14" d="M116.454,12.93,121.9,29.884l16.333.678-13.374,8.17L129.229,54.9l-14.1-9.936Z" transform="translate(-19.818 -2.224)" fill="#fff"/>
+          <path id="Pfad_15" data-name="Pfad 15" d="M114.416,61.961l5.443,16.948,16.333.68-13.374,8.17,4.371,16.163-14.105-9.928Z" transform="translate(-19.467 -10.667)" fill="#fff"/>
+          <path id="Pfad_16" data-name="Pfad 16" d="M112.376,111l5.443,16.948,16.333.68L120.779,136.8l4.371,16.157-14.105-9.931Z" transform="translate(-19.117 -19.105)" fill="#fff"/>
+          <path id="Pfad_17" data-name="Pfad 17" d="M110.35,160.018l5.443,16.954,16.333.678-13.376,8.181,4.371,16.16L109,192.065Z" transform="translate(-18.773 -27.546)" fill="#fff"/>
+          <path id="Pfad_18" data-name="Pfad 18" d="M108.3,209.062l5.443,16.946,16.333.68-13.374,8.17,4.371,16.168-14.105-9.934Z" transform="translate(-18.413 -35.989)" fill="#fff"/>
+          <path id="Pfad_19" data-name="Pfad 19" d="M82.645,116.914l-12.528-9.38,16.33.68,6.8-16.282.354-8.584-14.85,8.6,5.581-15.631L71.8,66.943l16.33.678,6.788-16.252.356-8.605L80.439,51.356l5.578-15.631L73.489,26.35l16.33.68L96.6,10.8l.289-7L5.671,0,.073,134.278c-2.006,48.248,37.234,89.07,87.661,91.179l4.193-101.523-14.85,8.6ZM52.652,185.785l-14.094-9.928L23.8,184.586l5.573-15.75-12.65-9.261,16.325.678,6.837-16.435,5.443,16.946,16.322.678-13.255,8.3ZM50.09,129.164,54.34,145.2l-14.108-9.928L25.492,144l5.559-15.747-12.639-9.267,16.325.678,6.845-16.438,5.443,16.951,16.322.68Zm1.682-40.6,4.25,16.039L41.927,94.67,27.18,103.413l5.573-15.75L20.1,78.405l16.325.68,6.834-16.444L48.7,79.6l16.322.678Zm1.69-40.585,4.25,16.039L43.618,54.083,28.867,62.817l5.573-15.75L21.79,37.8l16.325.678,6.837-16.427,5.443,16.94,16.322.68ZM88.563,205.1l-14.85,8.611,5.581-15.636L66.765,188.7l16.33.68,6.815-16.309Zm-3.807-56.308,6.815-16.322-1.334,32.047-14.85,8.605,5.578-15.631-12.528-9.38Z" transform="translate(0)" fill="#fff"/>
+        </g>
+      </g>
+    </svg>
+    
+    
+  </section>
+
+  <section class="section section--normal" id="ueber-mich">
+    <div class="container container--basic">
+      <h2 class="intro-transiton">Zu meiner Person</h2>
+      <div class="flex">
+        <div class="flex__part flex__part--img intro-transiton">
+          <img src="img/IMG_4092.jpg">
+        </div>
+        <div class="flex__part flex__part--txt intro-transiton">
+          <h3>Jonas Hallenbarter</h3>
+          <p>Hi, ich bin Jonas Hallenbarter, 19 Jahre alt und <br>komme aus Brig-Glis</p>
+          <p>Ich absolviere derzeit eine Lehre als Mediamatiker<br>bei der sodalis gesundheitsgruppe</p>
+          <p>In meiner Freizeit realisiere ich verschiedene Videoprojekte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--normal" id="taetigkeiten">
+    <div class="container container--basic">
+      <h2 class="intro-transiton">Tätigkeiten</h2>
+      <p class="txtcenter intro-transiton">Ich unterstütze Unternehmen im Marketing und helfe Ihnen<br> mittels Reels und Videos mehr Reichweite zu generieren</p>
+      <div class="carousel-wrapper" js-carousel-wrapper>
+        <!-- Counter -->
+        <div class="slide-number">
+          <span class="slide-number-text" js-slide-number-text> 1 / 5</span>
+        </div>
+        <!-- slide 1 -->
+        <div class="carousel-item intro-transiton" js-carousel-item data-active-slide>
+          <div class="flex">
+            <div class="flex__part flex__part--img">
+              <img src="img/slider-img-walliserguide.jpg" alt="Walliserguide">
+            </div>
+            <div class="flex__part flex__part--txt">
+              <h3>Walliserguide</h3>
+              <p>Zusammen mit dem Team von Walliserguide<br>produzieren wir Reels über Walliser-Gemeinden</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide 2 -->
+        <div class="carousel-item intro-transiton" js-carousel-item>
+          <div class="flex">
+            <div class="flex__part flex__part--img">
+              <video id="myVideo" autoplay loop muted>
+                <source src="img/slider--dj-cale.mp4" type="video/mp4">  
+              </video>
+            </div>
+            <div class="flex__part flex__part--txt">
+              <h3>DJ CALE</h3>
+              <p>Ich trage zur Social-Media-Präsenz von DJ Cale bei <br>und produziere für ihn Videos.</p>
+            </div>
+          </div>
+        </div>
+        <!-- slide 3 -->
+        <div class="carousel-item intro-transiton" js-carousel-item>
+          <div class="flex">
+            <div class="flex__part flex__part--img">
+              <img src="img/formation-table-black-25.jpg" alt="Ecole Romande">
+            </div>
+            <div class="flex__part flex__part--txt">
+              <h3>École Romande</h3>
+              <p>Design und Marketingunterstützung für das <br>Startup aus der Westschweiz</p>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation Arrows -->
+        <button type="button" class="carousel-arrow prev" data-carousel-arrows data-dir="prev"> &#x2039; </button>
+        <button type="button" class="carousel-arrow next" data-carousel-arrows data-dir="next"> &#x203A; </button>
+        <!-- Pagination Dots -->
+        <div class="carousel-dots" data-carousel-dots>
+          <button type="button" class="dots" data-active-dot js-data-dots data-dots-index="1"> </button>
+          <button type="button" class="dots" js-data-dots data-dots-index="2"> </button>
+          <button type="button" class="dots" js-data-dots data-dots-index="3"> </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section--normal" id="kontakt">
+    <div class="container container--basic">
+      <h2 class="intro-transiton">Kontakt aufnehmen</h2>
+      <p class="txtcenter">Ich freue mich auf Ihre Nachricht</p>
+      
+      <form id="myForm" onsubmit="validateForm(event)" action="send_email.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Name" class="intro-transiton">
+        <br>
+        <input type="text" id="email" name="email" placeholder="Email" class="intro-transiton">
+        <br>
+        <textarea id="message" name="message" placeholder="" class="intro-transiton"></textarea>
+        <br>
+        <input type="submit" value="Absenden" class="intro-transiton">
+      </form>
+    </div>
+  </section>
+
+  <section class="section section--footer" id="footer" class="footer">
+    <div class="container container--footer">
+    <div class="footer-column">
+      <svg class="logo intro-transiton" xmlns="http://www.w3.org/2000/svg" width="233.893" height="331.369" viewBox="0 0 233.893 331.369">
+        <path class="logo__path" id="Pfad_2" data-name="Pfad 2" d="M975.605,152.3c-26.884-36.359,17.946-124.809,43.677-66.358s1.852,171.905-4.141,195.024S968.848,419.445,920.126,394.3c-41.588-21.474-6.714-91.56,21.122-117.819s45.675-37.59,101.019-55.545c67.734-21.97,88.049-104.905,70.5-112.87s-26.383,39.2-34.163,70.4-13.407,131.018-14.053,163.059c-.6,30-13.1,21.806-11.727-27.221q.135-5,.479-10.556c3.144-199.658,46.515-228.4,71.826-210.721s-.1,115.1-62.4,136.433c-60.8,20.82-111.826,44.867-133.1,94.4-19.841,46.168-.172,66.86,22.442,45.824s58.893-91.391,62.274-186.382c.786-22.075,3.877-81.174-14.979-90.8S975.218,149.385,975.605,152.3Z" transform="translate(-900.933 -66.491)" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Projekte</h4>
+      <a href="https://social.walliserguide.ch/" target="_blank">Walliserguide</a>
+      <a href="https://www.cale.studio/" target="_blank">DJ Cale</a>
+      <a href="https://ecole-romande.ch/" target="_blank">École Romande</a>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Soziale Medien</h4>
+      <a href="https://www.instagram.com/jonash004/" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100069675554368" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/in/jonash04/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/JonasHallenbarter" target="_blank">Github</a>
+    </div>
+    <div class="footer-column intro-transiton">
+      <h4>Informationen</h4>
+      <a href="https://jonash.ch/impressum.html" target="_blank">Impressum</a>
+      <a href="https://jonash.ch/datenschutz.html" target="_blank">Datenschutz</a>
+      <a href="https://clarity.microsoft.com/" target="_blank">Clarity Tracking</a>
+    </div>
+  </div>
+  </section>
+
+  <!-- Javascript laden-->
+  <script src="js/functions.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/ticker.js"></script>
+
+  </body>
+  </html>
